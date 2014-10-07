@@ -19,7 +19,6 @@ Submit your pull request now: [Link](https://github.com/Yive/MCAPI-Issue-Tracker
 ### Suggestion Format
     API:
     Description:
-    Usage:
 
 Submit your issue now: [Link](https://github.com/Yive/MCAPI-Issue-Tracker-and-Examples/issues/new)
 
