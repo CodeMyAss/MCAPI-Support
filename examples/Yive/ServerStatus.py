@@ -8,4 +8,4 @@ data = json.load(json_url)
 if data['status'] == 'false':
 	print ('The server is offline.')
 else:
-	print("The server is online with %d/%d players online") % (data['players']['online'], data['players']['max'])
+	print("The server is online with %d/%d players online" % (data['players']['online'], data['players']['max']))
