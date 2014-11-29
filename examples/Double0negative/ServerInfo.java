@@ -11,7 +11,7 @@ public class ServerInfo {
 	
 	/* Example By Double0negative @ mc-sg.org */
 	
-	public static final String HOST = "http://mcapi.ca/v2/query/info/?ip={0}:{1}";
+	public static final String HOST = "http://mcapi.ca/query/{0}:{1}/info";
 	public static final Gson gson = new Gson();
 	
 	public static MinecraftPing ping(String host) throws Exception{

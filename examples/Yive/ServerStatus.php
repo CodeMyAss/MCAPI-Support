@@ -1,6 +1,6 @@
 <?php
 $serverip = "localhost";
-$info = json_decode( file_get_contents( 'http://mcapi.ca/v2/query/info/?ip='.$serverip ), true ); 
+$info = json_decode( file_get_contents( 'http://mcapi.ca/query/'.$serverip.'/info' ), true ); 
 
 // Status: $info['status']
 // MOTD: $info['motd']

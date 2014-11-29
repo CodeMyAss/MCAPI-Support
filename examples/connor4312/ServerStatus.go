@@ -20,7 +20,7 @@ type QueryResponse struct {
 }
 
 func getResultsFor(ip string) (record *QueryResponse, err error){
-    results, err := http.Get("http://mcapi.ca/v2/query/info/?ip=" + ip)
+    results, err := http.Get("http://mcapi.ca/query/" + ip + "/info")
     if err != nil {
         return nil, err
     }

@@ -3,7 +3,7 @@
 print "Content-type: text/html\n\n";
 import urllib2
 import json
-json_url = urllib2.urlopen('http://mcapi.ca/v2/query/info/?ip=us.mineplex.com')
+json_url = urllib2.urlopen('http://mcapi.ca/query/us.mineplex.com/info')
 data = json.load(json_url)
 if data['status'] == 'false':
 	print ('The server is offline.')

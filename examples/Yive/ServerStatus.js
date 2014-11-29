@@ -27,7 +27,7 @@ Thats all of the code.
 Writen by Yive @ mcapi.ca :)
 */
 function ServerStatus(serverip){
-	$.getJSON('http://mcapi.ca/v2/query/players/?ip=' + serverip, function(json){
+	$.getJSON('http://mcapi.ca/query/' + serverip + '/players', function(json){
 		if (json.status !== true) {
 			$('#players').html("0");
 		} else {
